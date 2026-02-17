@@ -4,11 +4,14 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://channieraven.github.io/maechaem_DB/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite preview --port 8080 --host"
+    "start": "vite preview --port 8080 --host",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -22,6 +25,7 @@
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.6"
   }
