@@ -1,0 +1,7 @@
+{
+  "name": "Mae Chaem Tree Database",
+  "description": "A comprehensive React-based system for tracking tree growth, coordinates, and health in the Mae Chaem multi-purpose forest project, integrated with Google Sheets.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
